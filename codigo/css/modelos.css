@@ -1,0 +1,10 @@
+.opcao-menu.modelos {
+	background-color: var(--cor-primaria);
+	box-shadow:
+		var(--bx-opcao-menu-h)
+		var(--bx-opcao-menu-v)
+		var(--bx-opcao-menu-b)
+		var(--bx-opcao-menu-s)
+		var(--bx-cor-primaria);
+	color: var(--fonte-escura-desfocada);
+}

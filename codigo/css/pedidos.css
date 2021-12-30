@@ -1,0 +1,79 @@
+.opcao-menu.pedidos {
+	background-color: var(--cor-primaria);
+	box-shadow:
+		var(--bx-opcao-menu-h)
+		var(--bx-opcao-menu-v)
+		var(--bx-opcao-menu-b)
+		var(--bx-opcao-menu-s)
+		var(--bx-cor-primaria);
+	color: var(--fonte-escura-desfocada);
+}
+
+.tabela-itens {
+	width: 100%;
+}
+
+.tabela-itens tr {
+	overflow: hidden;
+	height: 14px;
+	white-space: nowrap;
+}
+
+.tabela-itens .entrada {
+	width: 99%;
+}
+
+.modelo {
+	width: 18em;
+}
+
+.tamanho {
+	width: 14em;
+}
+
+.quantia {
+	width: 12em;
+}
+
+.preco-modelo {
+	width: 11em;
+}
+
+.subtotal {
+	width: 14em;
+}
+
+.tabela-itens td.adicionar-remover {
+	padding-top: .15em;
+	vertical-align: top;
+}
+
+.tabela-itens button.adicionar-remover {
+	background-color: rgba(0, 0, 0, 0);
+	padding: 1em;
+}
+
+.tabela-itens button.adicionar-remover:hover,
+.tabela-itens button.adicionar-remover:focus {
+	cursor: pointer;
+}
+
+.tabela-itens tfoot th {
+	padding: .5em 1.8em 0 0;
+	text-align: right;
+	vertical-align: top;
+}
+
+.entrada-cliente {
+	display: flex;
+	flex-direction: row;
+}
+
+#idCliente {
+	margin-right: .3em;
+	width: 6em;
+}
+
+#nomeCliente {
+	width: 100%;
+}
